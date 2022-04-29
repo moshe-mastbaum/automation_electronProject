@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Enviroment>
+    <!-- Gennral -->
+    <WaitTime>4</WaitTime>
+    <ScreenshotPath>../allure-screen-shots</ScreenshotPath>
+
+    <!-- Web -->
+    <Browser>Chrome</Browser>
+    <Url>https://www.boi.org.il</Url>
+
+
+    <!-- api -->
+    <ApiUrl>https://reqres.in/api/users</ApiUrl>
+
+    <!-- electron -->
+    <ElectronApp>C:/Users/Owner/AppData/Local/Programs/todolist/Todolist.exe</ElectronApp>
+    <ElectronDriver>C:/electrondriver/electrondriver.exe</ElectronDriver>
+
+    <!-- Effective to nominal -->
+    <Efct_in>4</Efct_in>
+    <Expected_nom>3.93</Expected_nom>
+    <Bank_num>1</Bank_num>
+
+    <!-- details for commission
+        has cerdit crad,is Senior citizen,disability_client, actions_by_clerk,direct_channel_actions  -->
+
+    <Details_commisson>1,1,1,8,12</Details_commisson>
+    <Expected_commissions>['70.0', '45.1', '24.0']</Expected_commissions>
+
+    <!--  test find bank-->
+    <!--ofakim-->
+    <City_num>6</City_num>
+    <Expected_num_of_banks>3</Expected_num_of_banks>
+
+    <!--  test exchange rate-->
+    <!--austrlian dollar-->
+    <Currncy>5</Currncy>
+    <Expected_rate>2.6944</Expected_rate>
+    <Date>40,10,8</Date>
+
+
+
+</Enviroment>
